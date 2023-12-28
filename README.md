@@ -8,7 +8,7 @@ will be written in python using pytorch, nuitka, and tkinter libraries. <br \>
 
 
 # WILL OUTPUT: #
-<img src="https://github.com/wettestsock/language-picker/assets/119987092/9adf8f95-7625-4a7e-8a80-35380450797d" width="20" height="21"> **PYTHON** <br />
+- <img src="https://github.com/wettestsock/language-picker/assets/119987092/9adf8f95-7625-4a7e-8a80-35380450797d" width="20" height="21"> **PYTHON** <br />
 <img src="https://github.com/wettestsock/language-picker/assets/119987092/bdcc577f-115b-46a5-b438-aa41242630b4" width="100" height="110"> 
 
 <img src="https://github.com/wettestsock/language-picker/assets/119987092/80291a15-e79d-425d-a992-9d8fa35cf48a" width="100" height="110">
