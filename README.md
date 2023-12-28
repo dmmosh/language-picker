@@ -10,7 +10,7 @@ will be written in python using pytorch, nuitka, and tkinter libraries.
 
 
 <img src="
-" width="100" height="110"> <br />
+" width="100" height="110"> 
 
 <img src="
 " width="100" height="110">
