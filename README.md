@@ -5,7 +5,7 @@ will be written in python using pytorch, nuitka, and tkinter libraries.
 
 
 # WILL OUTPUT: #
-## Python ##
+## - Python ##
 <img src="
 " width="100" height="110"> 
 
