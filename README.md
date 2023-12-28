@@ -1,10 +1,10 @@
 # PROGRAMMING LANGUAGE PICKER #
 
-Program made to help pick a programming language for a given project. <br \>
+Program made to help pick a programming language for a given project. <br />
 
 
 
-will be written in python using pytorch, nuitka, and tkinter libraries. <br \>
+will be written in python using pytorch, nuitka, and tkinter libraries. <br />
 
 
 # WILL OUTPUT: #
