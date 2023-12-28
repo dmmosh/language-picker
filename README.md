@@ -20,7 +20,7 @@ will be written in python using pytorch, nuitka, and tkinter libraries. <br \>
 
 <img src="https://github.com/wettestsock/language-picker/assets/119987092/8454841b-d2fe-4364-8664-e8fa5b2ef1fe)" width="100" height="110">
 
-<img src="(https://github.com/wettestsock/language-picker/assets/119987092/10ee0224-05f4-475c-b4cd-09cf76d71a64" width="100" height="110">
+<img src="https://github.com/wettestsock/language-picker/assets/119987092/10ee0224-05f4-475c-b4cd-09cf76d71a64" width="100" height="110">
 
 <img src="https://github.com/wettestsock/language-picker/assets/119987092/40ef981c-687a-4ae7-9efe-0fa7a220accd" width="100" height="110">
 
