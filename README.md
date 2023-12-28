@@ -34,9 +34,9 @@ will be written in python using pytorch, nuitka, and tkinter libraries. <br \>
 
 <img src="https://github.com/wettestsock/language-picker/assets/119987092/23a5ed2c-e7a8-459c-b4ba-e1d5e030558b" width="200" height="110">
 
-<img src="https://github.com/wettestsock/language-picker/assets/119987092/31d52254-1f34-4e8f-8978-6c1c3a1279fc" width="100" height="110">
+<img src="https://github.com/wettestsock/language-picker/assets/119987092/31d52254-1f34-4e8f-8978-6c1c3a1279fc" width="100" height="150">
 
-<img src="https://github.com/wettestsock/language-picker/assets/119987092/f6d15b14-98db-4d08-9e85-f2b28c320501" width="200" height="110">
+<img src="https://github.com/wettestsock/language-picker/assets/119987092/f6d15b14-98db-4d08-9e85-f2b28c320501" width="300" height="110">
 
 
 
