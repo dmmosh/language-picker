@@ -6,8 +6,7 @@ will be written in python using pytorch, nuitka, and tkinter libraries.
 
 # WILL OUTPUT: #
 ## - Python ##
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/2048px-Python.svg.png
-" width="100" height="110"> 
+<img src="https://github.com/wettestsock/language-picker/assets/119987092/9adf8f95-7625-4a7e-8a80-35380450797d" width="100" height="110"> 
 
 <img src="https://github.com/wettestsock/language-picker/assets/119987092/80291a15-e79d-425d-a992-9d8fa35cf48a" width="100" height="110">
 
