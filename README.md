@@ -32,7 +32,7 @@ will be written in python using pytorch, nuitka, and tkinter libraries. <br \>
 
 <img src="https://github.com/wettestsock/language-picker/assets/119987092/fd51c114-1b5f-4ffa-9691-6f822d3ea136" width="100" height="110">
 
-<img src="https://github.com/wettestsock/language-picker/assets/119987092/23a5ed2c-e7a8-459c-b4ba-e1d5e030558b" width="100" height="110">
+<img src="https://github.com/wettestsock/language-picker/assets/119987092/23a5ed2c-e7a8-459c-b4ba-e1d5e030558b" width="200" height="110">
 
 <img src="https://github.com/wettestsock/language-picker/assets/119987092/31d52254-1f34-4e8f-8978-6c1c3a1279fc" width="100" height="110">
 
