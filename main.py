@@ -54,14 +54,14 @@ text = tk.Text(root,
 
 canvas = tk.Canvas(root,
                    height=b_height//2,
-                   width=b_width)
+                   width=b_width,
+                   background='black',
+                   foreground='white')
 canvas.pack()
 
 entry1 = tk.Entry()
 canvas.create_window(200,140, 
-                     window= entry1,
-                     background='black', 
-                     foreground='white')
+                     window= entry1)
 
 input = entry1.get()
 
