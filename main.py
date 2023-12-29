@@ -46,8 +46,8 @@ root.geometry(str(b_height)+'x'+str(b_width))
 root.configure(bg=B)
 
 text = tk.Text(root, 
-               height=b_height//2, 
-               width=b_width, 
+               height=100, 
+               width=100, 
                background='black', 
                foreground='white',
                font=('Comic Sans', 20))
