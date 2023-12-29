@@ -58,7 +58,7 @@ text.insert(tk.END, torch.zeros(4,2))
 canvas = tk.Canvas(root,
                    height=b_height,
                    width=b_width,
-                   bg=B)
+                   bg=W)
 canvas.pack()
 
 entry1 = tk.Entry(root, bg=B, fg=W)
