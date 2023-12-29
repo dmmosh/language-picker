@@ -37,8 +37,8 @@ for i in range(iter_num):
 root = tk.Tk()
 
 root.geometry(str(b_height)+'x'+str(b_width))
-text = tk.Text(root, height=b_height, width=b_height)
 
+text = tk.Text(root, height=b_height, width=b_height, background='black', foreground='white')
 text.pack()
 
 text.insert(tk.END, torch.zeros(4,2))
