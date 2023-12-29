@@ -1,8 +1,8 @@
 import torch
 
+# FUNCTIONS
 
-
-# FUNCTIONS AND CLASSES 
+# CLASSES 
 class linReg(torch.nn.Module):
     def __init__(self):
         super().__init__()

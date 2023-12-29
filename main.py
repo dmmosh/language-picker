@@ -7,11 +7,13 @@ import tkinter as tk
 import funs
 from funs import linReg
 
-#HYPERPARAMS
-#box height, width
-b_height = 1000
-b_width = 300
+# CONSTANTS
+B = 'black'
+W = 'white'
 
+# HYPERPARAMETERS
+b_height = 200
+b_width = 1000
 
 '''
 HEART OF CODE
@@ -55,11 +57,11 @@ text = tk.Text(root,
 canvas = tk.Canvas(root,
                    height=b_height//2,
                    width=b_width,
-                   background='black',
-                   foreground='white')
+                   background=B,
+                   foreground=W)
 canvas.pack()
 
-entry1 = tk.Entry()
+entry1 = tk.Entry(background=B, foreground=W)
 canvas.create_window(200,140, 
                      window= entry1)
 
