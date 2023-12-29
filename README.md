@@ -4,7 +4,8 @@ Program made to help pick a programming language for a given project. <br />
 
 Using nuitka to compile into C code. Not including build files until a stable release of the program. <br />
 
-will be written in python using pytorch, nuitka, and tkinter libraries. <br />
+Written in Python using PyTorch (machine learning), Nuitka (compile), and Tkinter (GUI) libraries.<br />
+Done with CLI, time to move to graphics. <br />
 
 
 # WILL OUTPUT: #
