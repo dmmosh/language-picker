@@ -55,7 +55,7 @@ text = tk.Text(root,
 #text.insert(tk.END, torch.zeros(4,2))
 
 canvas = tk.Canvas(root,
-                   height=b_height//2,
+                   height=b_height,
                    width=b_width)
 canvas.pack()
 
