@@ -56,8 +56,7 @@ label = tk.Label(root,
                  height=200,
                  width=120)
 
-if(label):
-    tk.Text(root, height=100, width= 100).pack().insert(tk.END, label)
+
 
 label.pack()
 
