@@ -56,9 +56,7 @@ text = tk.Text(root,
 
 canvas = tk.Canvas(root,
                    height=b_height//2,
-                   width=b_width,
-                   background=B,
-                   foreground=W)
+                   width=b_width)
 canvas.pack()
 
 entry1 = tk.Entry(background=B, foreground=W)
