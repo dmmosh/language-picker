@@ -41,16 +41,16 @@ GUI !!
 root = tk.Tk()
 
 root.geometry(str(b_height)+'x'+str(b_width))
-
+'''
 text = tk.Text(root, 
                height=b_height//2, 
                width=b_width, 
                background='black', 
                foreground='white',
                font=('Comic Sans', 20))
-
-text.pack()
-text.insert(tk.END, torch.zeros(4,2))
+'''
+#text.pack()
+#text.insert(tk.END, torch.zeros(4,2))
 
 canvas = tk.Canvas(root,
                    height=b_height//2,
