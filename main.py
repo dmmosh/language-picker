@@ -1,23 +1,16 @@
-import funs
+# libraries
 import torch 
 import torch.nn as nn 
 import tkinter as tk
 
-#HYPERPARAMS
+# functions/classes
+import funs
+from funs import linReg
 
+#HYPERPARAMS
 #box height, width
 b_height = 250
 b_width = 170
-
-class linReg(torch.nn.Module):
-    def __init__(self):
-        super().__init__()
-
-        self.weight = torch.nn.Parameter(torch.randn(1))
-        self.bias = torch.nn.Parameter(torch.randn(1))
-    
-    def forward(self, x:torch.tensor)->torch.tensor:
-        return self.weights*x + self.biases
 
 
 model = linReg()
@@ -29,16 +22,24 @@ iter_num = 1
 
 
 # yeah something here i guess
+#TODO: train the actual regression
 for i in range(iter_num):
 
     model.train()
 
 
+# box romatting
+
 root = tk.Tk()
 
 root.geometry(str(b_height)+'x'+str(b_width))
 
-text = tk.Text(root, height=b_height, width=b_height, background='black', foreground='white')
+text = tk.Text(root, 
+               height=b_height, 
+               width=b_height, 
+               background='black', 
+               foreground='white',
+               font=('Courier', 44))
 text.pack()
 
 text.insert(tk.END, torch.zeros(4,2))
