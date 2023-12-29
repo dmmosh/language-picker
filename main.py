@@ -65,8 +65,10 @@ entry1 = tk.Entry(root, bg=B, fg=W)
 canvas.create_window(200,140, 
                      window= entry1)
 
-input = entry1.get()
+#input = entry1.get()
 
+button = tk.Button(text='test', 
+                   command=canvas.create_window(200,140,funs.btn_test(root, entry1)))
 
 
 
