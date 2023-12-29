@@ -58,7 +58,10 @@ canvas = tk.Canvas(root,
 canvas.pack()
 
 entry1 = tk.Entry()
-canvas.create_window(200,140, window= entry1)
+canvas.create_window(200,140, 
+                     window= entry1,
+                     background='black', 
+                     foreground='white')
 
 input = entry1.get()
 
