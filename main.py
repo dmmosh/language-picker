@@ -3,13 +3,11 @@ import torch
 import torch.nn as nn 
 import tkinter as tk
 
+#HYPERPARAMS
 
-root = tk.Tk()
-
-root.geometry('250x170')
-
-text = tk.Text(root, height=20, width=30)
-
+#box height, width
+b_height = 250
+b_width = 170
 
 class linReg(torch.nn.Module):
     def __init__(self):
@@ -35,6 +33,11 @@ for i in range(iter_num):
 
     model.train()
 
+
+root = tk.Tk()
+
+root.geometry(str(b_height)+'x'+str(b_width))
+text = tk.Text(root, height=b_height, width=b_height)
 
 text.pack()
 
