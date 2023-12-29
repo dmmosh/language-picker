@@ -67,10 +67,6 @@ canvas.create_window(200,140,
 
 canvas.create_window(200,140, window = text)
 
-while(True):
-    text.insert(tk.END, entry1.get())
-
-
 
 
 #input = entry1.get()
