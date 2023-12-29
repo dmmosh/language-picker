@@ -39,7 +39,7 @@ text = tk.Text(root,
                width=b_height, 
                background='black', 
                foreground='white',
-               font=('Courier', 44))
+               font=('Comic Sans', 20))
 text.pack()
 
 text.insert(tk.END, torch.zeros(4,2))
