@@ -43,6 +43,7 @@ GUI !!
 root = tk.Tk()
 
 root.geometry(str(b_height)+'x'+str(b_width))
+root.configure(bg=B)
 '''
 text = tk.Text(root, 
                height=b_height//2, 
@@ -59,7 +60,7 @@ canvas = tk.Canvas(root,
                    width=b_width)
 canvas.pack()
 
-entry1 = tk.Entry(root, bg=B, fg=W, cursor=W)
+entry1 = tk.Entry(root, bg=B, fg=W)
 canvas.create_window(200,140, 
                      window= entry1)
 
