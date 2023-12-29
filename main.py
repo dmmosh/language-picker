@@ -51,9 +51,9 @@ text = tk.Text(root,
                background='black', 
                foreground='white',
                font=('Comic Sans', 20))
-
-text.pack()
 text.insert(tk.END, torch.zeros(4,2))
+
+#text.pack()
 
 canvas = tk.Canvas(root,
                    height=b_height,
@@ -64,6 +64,8 @@ canvas.pack()
 entry1 = tk.Entry(root, bg=B, fg=W)
 canvas.create_window(200,140, 
                      window= entry1)
+
+canvas.create_window(200,140, window = text)
 
 
 
