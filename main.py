@@ -15,11 +15,12 @@ class linReg(torch.nn.Module):
     def __init__(self):
         super().__init__()
 
-        weights = torch.nn.Parameter(torch.randn(1))
-        biases = torch.nn.Parameter(torch.randn(1))
+        self.weight = torch.nn.Parameter(torch.randn(1))
+        self.bias = torch.nn.Parameter(torch.randn(1))
     
     def forward(self, x:torch.tensor)->torch.tensor:
         return self.weights*x + self.biases
+
 
 model = linReg()
 
