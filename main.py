@@ -43,7 +43,7 @@ root = tk.Tk()
 root.geometry(str(b_height)+'x'+str(b_width))
 
 text = tk.Text(root, 
-               height=b_height, 
+               height=100, 
                width=100, 
                background='black', 
                foreground='white',
@@ -52,8 +52,8 @@ text.pack()
 text.insert(tk.END, torch.zeros(4,2))
 
 label = tk.Label(root, 
-                 height=b_height,
-                 width=int(b_width/2))
+                 height=200,
+                 width=120)
 label.pack()
 
 if(label):
