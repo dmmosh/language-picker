@@ -59,7 +59,7 @@ canvas = tk.Canvas(root,
                    width=b_width)
 canvas.pack()
 
-entry1 = tk.Entry(root, bg=B, fg=W)
+entry1 = tk.Entry(root, bg=B, fg=W, cursor=W)
 canvas.create_window(200,140, 
                      window= entry1)
 
