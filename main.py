@@ -9,8 +9,8 @@ from funs import linReg
 
 #HYPERPARAMS
 #box height, width
-b_height = 250
-b_width = 170
+b_height = 1000
+b_width = 300
 
 
 model = linReg()
