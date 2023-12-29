@@ -67,7 +67,7 @@ canvas.create_window(200,140,
 
 canvas.create_window(200,140, window = text)
 
-
+#fjsdlj
 
 #input = entry1.get()
 
